@@ -1,17 +1,28 @@
+.academic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-.academic__title{
-    font-size: 38px;
-    margin-bottom: 1rem;
-    color: rgb(43, 6, 111);
-    font-weight:500 ;
+.academic__title {
+  font-size: 38px;
+  margin-bottom: 1rem;
+  color: rgb(43, 6, 111);
+  font-weight: 500;
 }
 
 .academic__courses {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-  
-  .academic__courses__box{
-    width: 150px;
-  }
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.academic__courses__box {
+  width: 150px;
+}
+
+.academic__courses__item__img img {
+  width: 100%;
+}
