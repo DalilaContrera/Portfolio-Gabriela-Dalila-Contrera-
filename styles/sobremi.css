@@ -1,0 +1,26 @@
+.sobremi{
+    display: flex;
+    align-items: center;
+
+}
+
+.sobremi--contenedor{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    gap: 20px;
+}
+
+.sobremi__titulo{
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.sobremi__descripcion{
+    font-size: 25px;
+}
+
+.sobremi__firma {
+    width: 140px;
+    height: 52px;
+}

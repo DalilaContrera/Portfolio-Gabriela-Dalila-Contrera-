@@ -1,0 +1,19 @@
+@import url("styles/header.css");
+@import url("styles/reset.css");
+@import url("styles/sobremi.css");
+@import url("styles/skills.css");
+@import url("styles/hobbies.css");
+@import url("styles/footer.css");
+@import url("styles/formacion.css");
+
+
+body{
+  width: 100vw;
+  background: pink;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+}
+
+.contenedor{
+  padding: 16px 5vw; /*vw=view widht ancho de pantalla*/
+}

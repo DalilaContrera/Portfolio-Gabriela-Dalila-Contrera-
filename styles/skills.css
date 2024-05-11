@@ -1,0 +1,46 @@
+.skills{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills__titulo{
+    font-size: 38px;
+    margin-bottom: 1rem;
+    color: rgb(43, 6, 111);
+    font-weight: 500;
+
+}
+/*estilo de los cuadros*/
+.skills__line{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.skills__box{
+    position: relative;
+    width: 10rem;
+    height: 10rem;
+    padding: 1rem;
+    background-color: beige;
+
+}
+
+.skills__box ul{
+    position: absolute;
+    bottom: 1rem;
+}
+
+.skills__img{
+    width: 45px;
+    height: auto;
+}
+
+.skills__name{
+    font-size: 25px;
+    margin-bottom: 1rem;
+}
+
