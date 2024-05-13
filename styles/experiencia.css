@@ -1,0 +1,25 @@
+#xp{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+h1{
+    font-size: 38px;
+    margin-bottom: 1rem;
+    color: rgb(43, 6, 111);
+    font-weight:500 ;
+}
+
+.experiencia__box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    gap: 7px;
+}
+
+.experiencia__img img{
+    width: 100%;
+  }

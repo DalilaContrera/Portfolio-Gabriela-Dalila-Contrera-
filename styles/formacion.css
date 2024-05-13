@@ -1,17 +1,28 @@
+.academica{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
 
-.academic__title{
+.academica__titulo{
     font-size: 38px;
     margin-bottom: 1rem;
     color: rgb(43, 6, 111);
     font-weight:500 ;
 }
 
-.academic__courses {
+.academica__cursos {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 47px;
   }
   
-  .academic__courses__box{
+  .academica__cursos__box{
     width: 150px;
+  }
+
+  .academica__cursos__item__img img {
+    width: 100%;
   }
