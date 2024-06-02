@@ -24,3 +24,17 @@
     width: 140px;
     height: 52px;
 }
+
+@media (max-width:425px){
+    article{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .sobremi{
+        margin-bottom: 3rem;
+
+    }
+}

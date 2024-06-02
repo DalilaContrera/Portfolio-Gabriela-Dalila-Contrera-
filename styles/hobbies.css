@@ -10,7 +10,7 @@
     font-size: 38px;
     margin-bottom: 1rem;
     color: rgb(43, 6, 111);
-    font-weight: 500;
+    font-weight: 700;
 }
 /*estilo de los cuadros*/
 .hobbies__line{
@@ -43,3 +43,23 @@
     margin-bottom: 1rem;
 }
 
+@media (max-width: 768px) {
+    .hobbies__line{
+        justify-content: center;
+    }
+
+    .hobbies__box{
+        width: 25%;
+        height: 7rem;
+        margin: 1rem;
+    }
+}
+
+
+@media (max-width:425px){
+    .hobbies{
+        margin-bottom: 15rem;
+        margin-top: 20rem;
+    }
+
+}

@@ -6,11 +6,11 @@
 @import url("styles/footer.css");
 @import url("styles/formacion.css");
 @import url("styles/experiencia.css");
-
+@import url("styles/contacto.css");
 
 body{
   width: 100vw;
-  background: rgb(229, 85, 162);
+  background: rgb(230, 134, 185);
   font-family: "Raleway", sans-serif;
   font-style: normal;
 }

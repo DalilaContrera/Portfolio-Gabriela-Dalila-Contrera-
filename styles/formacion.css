@@ -10,13 +10,14 @@
     font-size: 38px;
     margin-bottom: 1rem;
     color: rgb(43, 6, 111);
-    font-weight:500 ;
+    font-weight:700 ;
 }
 
 .academica__cursos {
     display: flex;
     flex-wrap: wrap;
-    gap: 47px;
+    gap: 55px;
+    font-size: large;
   }
   
   .academica__cursos__box{
@@ -26,3 +27,20 @@
   .academica__cursos__item__img img {
     width: 100%;
   }
+
+
+  @media (max-width:425px){
+    .academica{
+        margin-top: 10rem;
+        margin-bottom:40rem;
+    }
+    .academica__cursos{
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    .academica__cursos__box{
+      width: 100px;
+    }
+
+}
