@@ -47,7 +47,22 @@
 
 @media (max-width:425px){
     .skills{
-        margin-top: 0;
+        padding-left: 5px;
+
     }
 
+    div,.skills__line{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .skills__box ul{
+        bottom: 1rem;
+    }
+    .skills__img{
+        width: 60px;
+        height: auto;
+    }
+     
 }

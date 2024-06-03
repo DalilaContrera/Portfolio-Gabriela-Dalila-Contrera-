@@ -80,13 +80,24 @@ box-sizing: border-box;
 
 @media (max-width:425px){
    .cabecera__titulo{
-      font-size: 20px;
+      font-size: 25px;
       font-weight: 300;
       color: rgb(236, 222, 222);
       display: flex;
-      align-items: center;
-      gap: 7px;
+      justify-content: center;
+      gap: 5px;
    }
+
+   .descripcion__titulo{
+font-size: 22px;
+   }
+
+   .descripcion__links{
+      display: flex;
+      align-items: center;
+      gap: 10px;
+   }
+   
 
    .img__header{
       width: 30px;

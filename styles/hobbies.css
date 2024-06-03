@@ -58,8 +58,19 @@
 
 @media (max-width:425px){
     .hobbies{
-        margin-bottom: 15rem;
-        margin-top: 20rem;
+        margin-bottom: 42rem;
+        margin-top: 3rem;
     }
-
+    .hobbies__img{
+        width: 50px;
+        height: auto;
+    }
+    .hobbies__box{
+        width: 150px;
+        height: 100px;
+    } 
+    .hobbies__name{
+        font-size: 18px;
+    }
+    
 }
