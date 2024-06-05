@@ -62,15 +62,20 @@
         margin-top: 3rem;
     }
     .hobbies__img{
-        width: 50px;
+        width: 35px;
         height: auto;
     }
-    .hobbies__box{
-        width: 150px;
-        height: 100px;
-    } 
-    .hobbies__name{
-        font-size: 18px;
+    div,.hobbies__line, .hobbies__box{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
-    
+    .hobbies__box ul{
+        bottom: 1rem;
+    }
+
+    .hobbies__name{
+        font-size: 20px;
+    }
+
 }

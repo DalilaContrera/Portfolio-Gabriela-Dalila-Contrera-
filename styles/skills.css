@@ -17,7 +17,7 @@
 .skills__line{
     display: flex;
     justify-content: space-between;
-    gap: 1rem;
+    gap: 0.5rem;
 }
 
 .skills__box{
@@ -48,12 +48,12 @@
 @media (max-width:425px){
     .skills{
         padding-left: 5px;
-
+        width: 100%;
     }
 
-    div,.skills__line{
+    div,.skills__line, .skills__box{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         flex-wrap: wrap;
     }
 
@@ -61,8 +61,10 @@
         bottom: 1rem;
     }
     .skills__img{
-        width: 60px;
+        width: 35px;
         height: auto;
     }
-     
+    .skills__name{
+        font-size: 20px;
+    } 
 }
