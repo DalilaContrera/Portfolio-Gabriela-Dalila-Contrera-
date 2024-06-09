@@ -1,13 +1,15 @@
 .cabecera{
-display: flex;
 width: 100vw;
+display: flex;
 height: 20vh;
 background-image: url(../assets/f10.jpg);
+background-size: 100% ;
+background-position: center;
+background-repeat: no-repeat;
 justify-content: space-between;
-box-sizing: border-box;
 }
 
-.link, .menu__item{
+.link, .cabecera__menu li a{
    padding-top: 53px;
    text-decoration: none;
    font-size: 26px;
@@ -15,9 +17,10 @@ box-sizing: border-box;
    font-weight: 500;
 }
 
-.menu__list__item__contato{
+.menu__item__contacto{
    display: none;
 }
+
 .link:hover{
    text-decoration: underline;
    color: rgb(183, 108, 108);
@@ -83,17 +86,29 @@ box-sizing: border-box;
 
 @media (max-width:425px){
    .cabecera__titulo{
-      font-size: 18px;
-      font-weight: 300;
+      font-size: 16px;
+      font-weight: 500;
       color: rgb(249, 246, 77);
       display: flex;
       justify-content: center;
       gap: 5px;
    }
    
-   
+   .descripcion{
+      display: flex;
+      flex-direction: column-reverse;
+   }
+
    .descripcion__titulo{
-       font-size: 22px;
+       font-size: 20px;
+       margin-left: 1.5px ;
+   }
+
+   .descripcion__descripcion{
+      font-size: 18px;
+      width: 80vw;
+      margin-right: 6.5rem ;
+
    }
 
    .descripcion__links{
@@ -123,26 +138,73 @@ box-sizing: border-box;
       display: none;
    }
    #descripcion__img img{
-      display: flex;
-      justify-content: flex-end;
-      flex-wrap: wrap;
+      display: block;
+      flex-direction: row-reverse;
+      width: 200px;
+      height: 200px;
+      margin-right: 25rem;
       border-radius: 50%;
-      width: 150px;
-      height: 150px;
-
    }
 
-   .menu__list__item__contacto{
-      padding-top: 3px;
+   .menu__item__contacto  {
+      display: block;
+      padding-top: 10px;
       text-decoration: none;
-      font-size: 20px;
+      font-size: 18px;
       color: rgb(231, 228, 234);
-      font-weight: 400;
-   }
-   .menu__list__item__contacto:hover{
-      text-decoration: underline;
-      color: rgb(183, 108, 108);
-      font-weight: 550;
+      font-weight: 500;
+   
+         }
+     }
+
+     @media (max-width: 768px) {
+      .cabecera__titulo{
+         font-size: 20px;
+         font-weight: 400;
+         color: rgb(249, 246, 77);
+         display: flex;
+         justify-content: center;
+         gap: 5px;
+      }
+   
+      .cabecera__menu{
+         display: none;
+      }
+      .menu__item__contacto  {
+         display: block;
+         padding-top: 35px;
+         text-decoration: none;
+         font-size: 22px;
+         color: rgb(231, 228, 234);
+         font-weight: 500;
+      
+            }
+      #descripcion__img img{
+         display: block;
+         flex-direction: row;
+         width: 200px;
+         height: 200px;
+         margin-left: 17rem;
+         border-radius: 50%;
+      }
+
+      .img__header{
+         width: 30px;
+         height: 30px;
+       }
+       .descripcion__titulo{
+         font-size: 20px;
+         width: 70vw;
+         margin-left: 1.5px ;
+     }
+     .descripcion__descripcion{
+      font-size: 18px;
+      width: 60vw;
+      margin-right: 4.5rem ;
+
    }
 
-    }
+         
+   
+     }
+

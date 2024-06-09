@@ -19,6 +19,9 @@
 
 .sobremi__descripcion{
     font-size: 25px;
+    width: 80vw;
+    padding-left: 0.5px ;
+
 }
 
 .sobremi__firma {
@@ -44,6 +47,9 @@
     }
     .sobremi__titulo{
         font-size: 25px;
+        width: 100%;
+        padding-right: 150px;
+        
     }
 
     article .descripcion__descripcion{
@@ -59,3 +65,4 @@
     }
     
 }
+
